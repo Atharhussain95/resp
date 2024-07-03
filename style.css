@@ -1245,33 +1245,11 @@ nav .logo img{
 
 .info,
 .tag {
-  flex: 1;
-  height: 14px;
   font-size: 12px;
 }
 
 .tag {
   text-align: right;
-}
-
-.name{
-  flex: 4;
-  height: 100px;
-  font-size: 60px;
-  text-align: center;
-}
-
-#page2 .info p:nth-child(2),
-#page2 .name p:nth-child(2),
-#page2 .tag p:nth-child(2) {
-  top: 100%;
-  color: #ffffff;
-}
-
-.menu:hover .info p:nth-child(1),
-.menu:hover name p:nth-child(1),
-.menu:hover .tag p:nth-child(1) {
-  color: rgb(165, 165, 165);
 }
 
 .preview{
@@ -1288,13 +1266,13 @@ nav .logo img{
   position: absolute;
   width: 100%;
   height: 100%;
-  bottom: 300px;
-  right: 300px;
+  bottom: 500px;
+  right: 350px;
 }
 .preview-img img {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   top: 0;
   left: 0;
 }
@@ -1386,7 +1364,7 @@ nav .logo img{
   padding: 20px;
 }
 #animatedImage {
-  object-fit: cover;
+  object-fit: cover;    
 }
 
 
